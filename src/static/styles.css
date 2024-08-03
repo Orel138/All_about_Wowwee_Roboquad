@@ -1,0 +1,332 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.remote-control-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.remote-control {
+    width: 500px;
+    height: 500px;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    background-image: url('Remote_Control.PNG');
+    background-size: cover;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button.activity {
+    position: absolute;
+    top: 32px;
+    left: -15px;
+    width: 60px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    transform: rotate(-10deg);
+}
+
+.button.aggression { 
+    position: absolute; 
+    top: 60px; 
+    left: -15px; 
+    width: 80px; 
+    height: 20px; 
+    border-radius: 15px; 
+    background-color: black; 
+    color: white; 
+    transform: rotate(-25deg); 
+}
+
+.button.awareness { 
+    position: absolute; 
+    top: 95px; 
+    left: -5px; 
+    width: 80px; 
+    height: 20px; 
+    border-radius: 15px; 
+    background-color: black; 
+    color: white; 
+    transform: rotate(-45deg); 
+}
+
+.demo-button {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.shift-button {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 295px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.shift-level-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.personality-indicators {
+    position: absolute;
+    top: 50px;
+    left: 205px;
+}
+
+.activity-indicator {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.aggression-indicator {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.awareness-indicator {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.middle-buttons  {
+    position: absolute;
+    top: 200px;
+    left: 245px;
+}
+
+.autonomy {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.program {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    left: -50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.play {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    left: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.button.demo { 
+    width: 50px; 
+    height: 25px; 
+    border-radius: 15px; 
+    background-color: black; 
+    color: white; 
+}
+
+.button.shift { 
+    width: 50px; 
+    height: 25px; 
+    border-radius: 15px; 
+    background-color: black; 
+    color: red; 
+}
+
+.button-direction  {
+    position: absolute;
+    top: 365px;
+    left: 245px;
+}
+
+.direction-stop {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.direction-forward {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: -50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.direction-backward {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.direction-left {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    left: -50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.direction-right {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    left: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.direction-top-left {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.direction-top-right {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.direction-bottom-left {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.direction-bottom-right {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.direction-clockwise {
+    width: 25px;
+    height: 20px;
+    border-radius: 20%;
+    background-color: transparent;
+    position: absolute;
+    top: -70px;
+    left: -50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.direction-counter-clockwise {
+    width: 25px;
+    height: 20px;
+    border-radius: 20%;
+    background-color: transparent;
+    position: absolute;
+    top: -70px;
+    left: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.button:active {
+    background-color: #ccc;
+}
+
+.message-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+}

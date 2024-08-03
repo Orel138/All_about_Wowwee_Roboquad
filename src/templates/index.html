@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Remote Control</title>
+</head>
+<body>
+    <div class="remote-control-container">
+        <div class="remote-control">
+            <div class="top-buttons">
+                <button class="button activity" data-color-state="1">activity</button>
+                <button class="button aggression" data-color-state="1">aggression</button>
+                <button class="button awareness" data-color-state="1">awareness</button>
+            </div>
+            <div class="middle-buttons">
+                <button class="button autonomy">autonomy</button>
+                <button class="button program">program</button>
+                <button class="button play">play</button>
+            </div>
+            <div class="demo-button">
+                <button class="button demo">Demo</button>
+            </div>
+            <div class="shift-button">
+                <button class="button shift" id="shiftButton">Shift Level: 1</button>
+            </div>
+            <div class="shift-level-indicator"></div>
+            <div class="personality-indicators">
+                <div class="activity-indicator"></div>
+                <div class="aggression-indicator"></div>
+                <div class="awareness-indicator"></div>
+            </div>
+            <div class="button-direction">
+                <button class="button direction-stop">stop</button>
+                <button class="button direction-forward">forward</button>
+                <button class="button direction-backward">backward</button>
+                <button class="button direction-right">right</button>
+                <button class="button direction-left">left</button>
+                <button class="button direction-top-right">top-right</button>
+                <button class="button direction-top-left">top-left</button>
+                <button class="button direction-bottom-right">bottom-right</button>
+                <button class="button direction-bottom-left">bottom-left</button>
+                <button class="button direction-clockwise">clockwise</button>
+                <button class="button direction-counter-clockwise">counter-clockwise</button>
+            </div>
+        </div>
+        <div class="message-box" id="message-box">Ready</div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
