@@ -15,7 +15,7 @@
 [![issues](https://custom-icon-badges.demolab.com/github/issues-raw/Orel138/All_about_Wowwee_Roboquad?logo=issue)](https://github.com/Orel138/All_about_Wowwee_Roboquad/issues "issues")
 [![Use this template](https://img.shields.io/badge/Use_as_template-2ea44f?style=flat&color=blue)](https://github.com/Orel138/All_about_Wowwee_Roboquad/generate)
 
-[![Wowwee](https://img.shields.io/badge/Wowwee-Roboquad-blue?style=flat&logo=wowwee)](https://www.wowwee.com/roboquad "Wowwee Roboquad")
+[![Wowwee](https://img.shields.io/badge/Wowwee-Roboquad-blue?style=flat&logo=wowwee)](https://www.wowwee.com "Wowwee Roboquad")
 
 
 </div>
